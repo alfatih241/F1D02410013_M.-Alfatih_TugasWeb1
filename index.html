@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - M. Alfatih</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>PROFIL MAHASISWA UNIVERSITAS MATARAM</h1>
+      <p>Tugas Pemrograman Web Dasar 1 | Tahun 2026</p>
+    </header>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">BERANDA</a>
+      <a href="page2.html" class="nav-link">KEGIATAN</a>
+      <a href="#form-kontak" class="nav-link">HUBUNGI SAYA</a>
+    </nav>
+
+    <main class="content-container">
+      <section id="biodata" class="card">
+        <h2>I. Biodata Diri</h2>
+        <p>
+          Halo! Nama saya <b>M. Alfatih</b> dengan NIM <b>F1D02410013</b>. Saat
+          ini saya sedang menempuh pendidikan di Program Studi Teknik
+          Informatika, <i>Universitas Mataram</i>.
+        </p>
+
+        <div class="profile-box">
+          <img
+            src="assets/fatih.jpeg"
+            alt="Foto Profil M. Alfatih"
+            class="profile-img"
+          />
+          <p class="caption">
+            <i>"Belajar HTML dan CSS adalah langkah awal menjadi developer!"</i>
+          </p>
+        </div>
+      </section>
+
+      <section id="pendidikan" class="card">
+        <h2>II. Riwayat Pendidikan</h2>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Jenjang</th>
+              <th>Institusi</th>
+              <th>Tahun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>TK</td>
+              <td>TK Harapan Masa</td>
+              <td>2011 - 2012</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>SD</td>
+              <td>SD Negeri Inpres Leu</td>
+              <td>2012 - 2018</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>SMP</td>
+              <td>MTs Sila</td>
+              <td>2018 - 2021</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>SMA</td>
+              <td>SMA Negeri 1 Bolo</td>
+              <td>2021 - 2024</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Kuliah</td>
+              <td>Universitas Mataram</td>
+              <td>2024 - Sekarang</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="form-kontak" class="card">
+        <h2>III. Hubungi Saya</h2>
+        <fieldset>
+          <legend><b>Kirim Pesan</b></legend>
+          <form action="#" method="get">
+            <p>
+              <label for="nama">Nama Lengkap:</label><br />
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan nama..."
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email Aktif:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="contoh@mail.com"
+                required
+              />
+            </p>
+            <p>
+              <label for="pesan">Pesan Anda:</label><br />
+              <textarea
+                id="pesan"
+                name="pesan"
+                rows="5"
+                placeholder="Tuliskan pesan Anda di sini..."
+                required
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit" class="btn-primary">
+                Kirim Pesan Sekarang
+              </button>
+            </p>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Dikelola oleh: <b>M. Alfatih - F1D02410013</b></p>
+      <p>&copy; 2026 Teknik Informatika - Universitas Mataram</p>
+    </footer>
+  </body>
+</html>
